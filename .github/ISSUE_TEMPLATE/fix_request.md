@@ -6,30 +6,30 @@ title: '[fix]:'
 labels: ['fix']
 assignees: []
 ---
-## Bug Description
+## Descrição do Bug
 
 O upload de imagens maiores que 5MB causa a falha do aplicativo devido a estouro de memória.
 
-## Steps to Reproduce
+## Etapas para reproduzir
 
-1. Go to "Upload Image"
-2. Select an image >5MB
-3. Click Upload
+1. Vá em "Carregar imagem"
+2. Selecione uma imagem> 5 MB
+3. Clique em Carregar
 
-## Expected Behavior
+## Comportamento esperado
 
-Image should upload successfully or show an error if size limit exceeded.
+A imagem deverá ser carregada com êxito ou mostrar um erro se o limite de tamanho for excedido.
 
-## Actual Behavior
+## Comportamento real
 
-App freezes and crashes after uploading large files.
+O aplicativo congela e trava após enviar arquivos grandes.
 
-## Fix Plan
+## Plano de correção
 
-- [ ] Add file size validation on client side
-- [ ] Limit upload buffer size on backend
+- [] Adicionar validação de tamanho de arquivo no lado do cliente
+- [] Limitar o tamanho do buffer de upload no back-end
 
-## Environment
+## Ambiente
 
-- OS: Windows 11
-- Browser: Chrome v114
+- SO: Windows 11
+- Navegador: Chrome v114

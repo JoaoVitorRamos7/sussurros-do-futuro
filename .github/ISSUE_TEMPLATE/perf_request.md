@@ -10,17 +10,17 @@ assignees: ''
 
 Usar carregamento lento (lazy loading) e compressão para as imagens do banner da página inicial para melhorar o tempo de carregamento.
 
-## Current Behavior
+## Comportamento Atual
 
 As imagens são carregadas imediatamente, causando uma renderização inicial lenta.
 
-## Improvement Plan
+## Plano de Melhoria
 
 - [ ] Habilitar carregamento lento para imagens não críticas
 - [ ] Comprimir imagens usando WebP
 - [ ] Testar a velocidade de carregamento antes e depois
 
-## Metrics to Watch
+## Métricas a serem observadas
 
 - Lighthouse performance score
 - Page load time
