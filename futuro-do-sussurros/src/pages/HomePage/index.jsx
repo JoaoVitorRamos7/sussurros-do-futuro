@@ -1,7 +1,9 @@
-
 import { Link } from "react-router-dom"
+import './HomePage.css'
+import ButtonStartGame from "../../components/Button"
 
-function Home() {
+
+function HomePage() {
     return (
         <main>
             <section id="section-title"><h1>Susurros do Futuro</h1></section>
@@ -17,10 +19,10 @@ function Home() {
             </section>
             <section id="start-game">
                 <p>Está confuso em qual área ingressar na tecnologia?</p>
-                <Link id='button-start-game'  to="/fluxo">Jogue agora</Link>
+                <ButtonStartGame/>
             </section>
         </main>
     )
 }
 
-export default Home
+export default HomePage
